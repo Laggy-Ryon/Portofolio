@@ -1,39 +1,78 @@
-# Harshit Neog - Personal Portfolio
+# Harshit Neog — Personal Portfolio
 
-Personal portfolio website for Harshit Neog, a Computer Science & Engineering (AI/ML) student and open-source contributor.
+[![Live Website](https://img.shields.io/badge/Live%20Website-Vercel-black?style=for-the-badge&logo=vercel)](https://portofolio-kappa-five-37.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-Laggy--Ryon-181717?style=for-the-badge&logo=github)](https://github.com/Laggy-Ryon)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Harshit%20Neog-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/harshit-neog-b37018418/)
 
-## Live Website
+A fast, lightweight, and responsive personal portfolio website built with pure semantic HTML5, modern CSS3, and vanilla JavaScript. Zero framework overhead, zero build steps, and instantaneous load times.
 
-- **Deployment**: [https://harshitneog.vercel.app](https://harshitneog.vercel.app) (or via GitHub Pages at `https://laggy-ryon.github.io/Portofolio/`)
+🔗 **Live Deployment**: **[https://portofolio-kappa-five-37.vercel.app/](https://portofolio-kappa-five-37.vercel.app/)**
 
-## Features
+---
 
-- **Monochrome Design**: High-contrast, clean minimalist theme supporting both light and dark modes.
-- **Categorized Skills**: Technical capabilities grouped into Languages, Tools & Frameworks, Code Quality & CI, and Soft Skills.
-- **Featured Projects**: Highlights systems and backend tools like `triage3am` (incident triage engine) and `Mandate` (spending firewall for AI agents).
-- **Interactive Contact Form**: Integrated with FormSubmit AJAX for direct message forwarding.
-- **Pure Web Standards**: Built entirely with vanilla HTML, modern CSS, and lightweight JavaScript with zero external runtime libraries.
+## ⚡ Overview
 
-## Local Setup
+I'm Harshit, a first-year B.Tech CSE (AI/ML) student at Bosscoder School of Technology (SVYASA University) based in Bengaluru, India. I focus on developer tooling, static analysis, systems engineering, and open-source infrastructure across the Java, Python, and TypeScript ecosystems.
 
-You can run the portfolio locally using Python's built-in HTTP server:
+This repository hosts the source code for my personal website.
+
+---
+
+## ✨ Key Features
+
+- **🌓 Dynamic Dark / Light Themes**: High-contrast monochrome design system with automatic OS scheme detection (`prefers-color-scheme`) and state persistence via `localStorage`.
+- **🏷️ Categorized Technical Skills**: Skill chips structured into Languages, Tools & Frameworks, Code Quality & CI, and Soft Skills with interactive hover states.
+- **🚀 Featured Projects**: In-depth breakdowns of standalone engineering projects:
+  - **[triage3am](https://github.com/Laggy-Ryon/triage3am)**: Zero-dependency AIOps engine for incident triage and root-cause diagnoses.
+  - **[Mandate](https://github.com/Laggy-Ryon/mandate)**: Spending firewall stopping compromised AI shopping agents from paying outside user limits.
+- **🤝 Open Source Milestones**: Highlights merged upstream pull requests across **Jenkins**, **Apicurio (CNCF)**, **Checkstyle**, and **Instawork Hyperview**.
+- **📬 Working Contact Form**: Asynchronous form dispatch powered by [FormSubmit](https://formsubmit.co) with anti-spam honeypot filtering and interactive status handling.
+- **📱 Fully Responsive**: Fluid navigation drawer and adaptive grid layouts engineered for all mobile, tablet, and desktop viewports.
+
+---
+
+## 📁 Repository Structure
+
+```text
+Portofolio/
+├── index.html        # Semantic HTML structure & content
+├── style.css         # Modern CSS tokens, responsive grids & theme styling
+├── script.js         # Theme switching, mobile menu, scrollspy & AJAX form
+├── profile.jpg       # Profile photo
+└── README.md         # Repository documentation
+```
+
+---
+
+## 🛠️ Local Development
+
+Because this site is built purely with web standards, no compilation or npm package installation is needed.
+
+To run it locally:
 
 ```bash
+# Clone the repository
+git clone https://github.com/Laggy-Ryon/Portofolio.git
 cd Portofolio
+
+# Start a local static server
 python3 -m http.server 8080
 ```
 
-Then visit `http://localhost:8080` in your web browser.
+Then visit `http://localhost:8080` in your browser.
 
-## Deploying to Vercel
+---
 
-1. Log in to [Vercel](https://vercel.com/) with your GitHub account.
-2. Select **Add New...** -> **Project** and import `Laggy-Ryon/Portofolio`.
-3. Keep default settings (root directory `./`, framework preset `Other`) and click **Deploy**.
-4. You can configure a custom subdomain (e.g. `harshitneog.vercel.app`) in the project settings under **Domains**.
+## 🌐 Deployment
 
-## Deploying to GitHub Pages
+The site is continuously deployed on **[Vercel](https://vercel.com)**:
+- Every push to the `main` branch automatically triggers a global edge deployment.
+- Production URL: **[https://portofolio-kappa-five-37.vercel.app/](https://portofolio-kappa-five-37.vercel.app/)**
 
-1. Navigate to your repository settings at `https://github.com/Laggy-Ryon/Portofolio/settings/pages`.
-2. Under **Build and deployment**, set the source to `Deploy from a branch`.
-3. Choose `main` as the branch and `/ (root)` as the folder, then click **Save**.
+---
+
+## 📬 Connect
+
+- **Email**: [Harshitneog44@gmail.com](mailto:Harshitneog44@gmail.com)
+- **LinkedIn**: [linkedin.com/in/harshit-neog-b37018418](https://www.linkedin.com/in/harshit-neog-b37018418/)
+- **GitHub**: [@Laggy-Ryon](https://github.com/Laggy-Ryon)
