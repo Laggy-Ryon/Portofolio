@@ -1,16 +1,12 @@
 # Harshit Neog — Personal Portfolio
 
-[![Live Website](https://img.shields.io/badge/Live%20Website-Vercel-black?style=for-the-badge&logo=vercel)](https://portofolio-kappa-five-37.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-Laggy--Ryon-181717?style=for-the-badge&logo=github)](https://github.com/Laggy-Ryon)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Harshit%20Neog-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/harshit-neog-b37018418/)
-
 A fast, lightweight, and responsive personal portfolio website built with pure semantic HTML5, modern CSS3, and vanilla JavaScript. Zero framework overhead, zero build steps, and instantaneous load times.
 
-🔗 **Live Deployment**: **[https://portofolio-kappa-five-37.vercel.app/](https://portofolio-kappa-five-37.vercel.app/)**
+Live Deployment: [https://portofolio-kappa-five-37.vercel.app/](https://portofolio-kappa-five-37.vercel.app/)
 
 ---
 
-## ⚡ Overview
+## Overview
 
 I'm Harshit, a first-year B.Tech CSE (AI/ML) student at Bosscoder School of Technology (SVYASA University) based in Bengaluru, India. I focus on developer tooling, static analysis, systems engineering, and open-source infrastructure across the Java, Python, and TypeScript ecosystems.
 
@@ -18,20 +14,20 @@ This repository hosts the source code for my personal website.
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-- **🌓 Dynamic Dark / Light Themes**: High-contrast monochrome design system with automatic OS scheme detection (`prefers-color-scheme`) and state persistence via `localStorage`.
-- **🏷️ Categorized Technical Skills**: Skill chips structured into Languages, Tools & Frameworks, Code Quality & CI, and Soft Skills with interactive hover states.
-- **🚀 Featured Projects**: In-depth breakdowns of standalone engineering projects:
+- **Dynamic Dark / Light Themes**: High-contrast monochrome design system with automatic OS scheme detection (`prefers-color-scheme`) and state persistence via `localStorage`.
+- **Categorized Technical Skills**: Skill chips structured into Languages, Tools & Frameworks, Code Quality & CI, and Soft Skills with interactive hover states.
+- **Featured Projects**: In-depth breakdowns of standalone engineering projects:
   - **[triage3am](https://github.com/Laggy-Ryon/triage3am)**: Zero-dependency AIOps engine for incident triage and root-cause diagnoses.
   - **[Mandate](https://github.com/Laggy-Ryon/mandate)**: Spending firewall stopping compromised AI shopping agents from paying outside user limits.
-- **🤝 Open Source Milestones**: Highlights merged upstream pull requests across **Jenkins**, **Apicurio (CNCF)**, **Checkstyle**, and **Instawork Hyperview**.
-- **📬 Working Contact Form**: Asynchronous form dispatch powered by [FormSubmit](https://formsubmit.co) with anti-spam honeypot filtering and interactive status handling.
-- **📱 Fully Responsive**: Fluid navigation drawer and adaptive grid layouts engineered for all mobile, tablet, and desktop viewports.
+- **Open Source Milestones**: Highlights merged upstream pull requests across **Jenkins**, **Apicurio (CNCF)**, **Checkstyle**, and **Instawork Hyperview**.
+- **Working Contact Form**: Asynchronous form dispatch powered by [FormSubmit](https://formsubmit.co) with anti-spam honeypot filtering and interactive status handling.
+- **Fully Responsive**: Fluid navigation drawer and adaptive grid layouts engineered for all mobile, tablet, and desktop viewports.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 Portofolio/
@@ -44,7 +40,7 @@ Portofolio/
 
 ---
 
-## 🛠️ Local Development
+## Local Development
 
 Because this site is built purely with web standards, no compilation or npm package installation is needed.
 
@@ -63,16 +59,16 @@ Then visit `http://localhost:8080` in your browser.
 
 ---
 
-## 🌐 Deployment
+## Deployment
 
-The site is continuously deployed on **[Vercel](https://vercel.com)**:
+The site is continuously deployed on [Vercel](https://vercel.com):
 - Every push to the `main` branch automatically triggers a global edge deployment.
-- Production URL: **[https://portofolio-kappa-five-37.vercel.app/](https://portofolio-kappa-five-37.vercel.app/)**
+- Production URL: [https://portofolio-kappa-five-37.vercel.app/](https://portofolio-kappa-five-37.vercel.app/)
 
 ---
 
-## 📬 Connect
+## Connect
 
-- **Email**: [Harshitneog44@gmail.com](mailto:Harshitneog44@gmail.com)
-- **LinkedIn**: [linkedin.com/in/harshit-neog-b37018418](https://www.linkedin.com/in/harshit-neog-b37018418/)
-- **GitHub**: [@Laggy-Ryon](https://github.com/Laggy-Ryon)
+- Email: [Harshitneog44@gmail.com](mailto:Harshitneog44@gmail.com)
+- LinkedIn: [linkedin.com/in/harshit-neog-b37018418](https://www.linkedin.com/in/harshit-neog-b37018418/)
+- GitHub: [@Laggy-Ryon](https://github.com/Laggy-Ryon)
